@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(215, 168, 168);
+}
+fieldset{
+    background-color: rgb(188, 237, 188);
+    margin-top:250px;
+    height: 200px;
+    width: 400px;
+}
+button{
+    color: white;
+    background-color: brown;
+}

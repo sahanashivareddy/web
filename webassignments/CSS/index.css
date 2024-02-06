@@ -1,0 +1,23 @@
+*{
+    text-decoration: none;
+}
+img{
+    height: 75px;
+}
+.nav1{
+    background-color: rgba(242, 244, 246, 0.956);
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.menu{
+    width: 600px;
+    
+}
+ol{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}

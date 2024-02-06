@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(252, 241, 241);
+}
+fieldset{
+    background-color: powderblue;
+    margin-top:250px;
+    height: 200px;
+    width: 400px;
+    list-style: none;
+}
+button{
+    color: white;
+    background-color: blueviolet;
+    
+}
+
+    
