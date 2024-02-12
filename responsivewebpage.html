@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url("https://wallpapercave.com/wp/wp9764008.jpg");
+              
+        }
+        form
+        {
+            width: 280px;
+             position: relative;
+             left: 550px;
+              top: 180px;
+              background-color:rgba(187, 187, 238, 0.4);
+              border-radius: 10%;
+              padding: 20px;
+             box-shadow: 2px 2px 2px 2px rgb(55, 63, 87);
+        }
+        h3::after{
+                content: "Tv";
+                color: white;
+            }
+        h2{
+            text-align: center;
+            margin-top: 10px;
+        }
+        button{
+            margin-left: 50px;
+        }
+        @media screen and (min-width:0px) and (max-width:400px) {
+            form{
+                width: 280px;
+                position: relative;
+                left: 20px;
+            }
+            h3::after{
+                content: "Phone";
+                color: white;
+            }
+        }
+        @media screen and (min-width:401px) and (max-width:600px) {
+            form{
+                width: 280px;
+                position: relative;
+                left: 100px;
+            }
+            h3::after{
+                content: "Tablet";
+                color: white;
+            }
+        }
+        @media screen and (min-width:601px) and (max-width:750px) {
+            form{
+                width: 280px;
+                position: relative;
+                left: 190px;
+            }
+            h3::after{
+                content: "Laptop";
+                color: white;
+            }
+        }
+        @media screen and(min-width:751px) {
+            form{
+                width: 280px;
+                position: relative;
+                left: 550px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h3></h3>
+    <form action="">
+         <h2>Signup page</h2>
+
+            <label for="first">First name :</label>
+            <input type="text" name="" id="first"><br><br>
+            <label for="last">Last name :</label>
+            <input type="text" id="last"><br><br>
+            <label for="pwd">Password  :</label>
+            <input type="password" id="pwd"><br><br>
+            <label for="phno">Number  :</label>
+            <input type="tel" id="phno"><br><br>
+            <button>Submit</button>
+            <button type="reset">Cancel</button>
+    </form>
+</body>
+</html>
